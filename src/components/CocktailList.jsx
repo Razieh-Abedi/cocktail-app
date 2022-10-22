@@ -9,11 +9,13 @@ function CocktailList() {
     return <Loading />;
   }
   if (cocktails.length < 1) {
-    return <h1 className="section-title">No cocktails matched your search!</h1>;
-  }
-  return <div>
-    hi
-  </div>;
+    return <h2 className="section-title">No cocktails matched your search!</h2>;
+  } 
+    return (
+      <div>
+        <Cocktail />
+      </div>
+    );
 }
 
 export default CocktailList;
