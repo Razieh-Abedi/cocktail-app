@@ -1,9 +1,12 @@
-import React from 'react'
+import React from "react";
+import CocktailList from "../components/CocktailList";
+import SearchForm from "../components/SearchForm";
 
 function Home() {
-  return (
-    <div>Home</div>
-  )
+  return <main>
+<SearchForm/>
+<CocktailList/>
+  </main>;
 }
 
-export default Home
+export default Home;
