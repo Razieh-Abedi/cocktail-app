@@ -5,9 +5,9 @@ function Error() {
   return (
     <section className="section error-page">
       <div className="error-container">
-        <h1>Opps! It's a dead end!</h1>
-        <Link to="/" className="btn btn-primary">
-          Back to homepage
+        <h1>oops! it's a dead end.</h1>
+        <Link className="btn btn-primary" to="/">
+          back home
         </Link>
       </div>
     </section>
